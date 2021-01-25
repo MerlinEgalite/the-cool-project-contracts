@@ -8,9 +8,9 @@ import { Governance } from "./Governance.sol";
 import { SafeMath } from "./math/SafeMath.sol";
 
 /**
-	* @title CreditDelegation contract
+	* @title GovernanceCreditDelegation contract
 	**/
-contract CreditDelegation is Governance {
+contract GovernanceCreditDelegation is Governance {
 	using SafeERC20 for IERC20;
 	using SafeMath for uint256;
 
