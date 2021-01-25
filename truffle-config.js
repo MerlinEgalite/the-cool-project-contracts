@@ -1,9 +1,11 @@
 const HDWalletProvider = require("@truffle/hdwallet-provider")
 const dotenv = require('dotenv')
-dotenv.config({ path: '../.env' })
+dotenv.config({ path: '.env' })
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY
 const INFURA_PROJECT_ID = process.env.INFURA_PROJECT_ID
+
+console.log(INFURA_PROJECT_ID)
 
 module.exports = {
   networks: {
