@@ -5,14 +5,12 @@ The Cool project is a really cool project. It allows to create uncollaterallized
 
 ## Truffle
 
-To deploy contract on Kovan network
+To deploy contract on Kovan network:
 ```bash
-cd truffle
-# and
 npm run migrate:kovan
 ```
 
-Then, update the addresses and abis in the `contracts` folder in `web-app`.
+Then, update the addresses and abis in the `contracts` folder in the `web-app`.
 
 ## TODO
 

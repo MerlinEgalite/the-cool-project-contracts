@@ -13,7 +13,7 @@ import { SafeERC20 } from "./token/ERC20/SafeERC20.sol";
  * See @dev comments
  */
 
-contract CreditDelegation {
+contract SimpleCreditDelegation {
 	using SafeERC20 for IERC20;
 
 	ILendingPoolAddressesProvider provider;
