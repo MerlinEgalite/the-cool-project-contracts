@@ -33,14 +33,14 @@ Long terms:
 
 ## Parameters
 
-- decay = 0.9999599, which sets up conviction halftime to 3 days.
-- maxRatio = 0.2, which sets the threshold formula to only allow proposals that request less than 20% of the funds.
-- rho = 0.002, which fine tunes the threshold formula.
+In 18 decimals numbers:
+- decay = 9000000, which sets up conviction halftime to 3 days.
+- maxRatio = 2000000, which sets the threshold formula to only allow proposals that request less than 20% of the funds.
+- rho = 20000, which fine tunes the threshold formula.
 - minThresholdStakePercentage = 0.2, which sets the minimum percent of stake token active supply that is used for calculating the threshold
 
-In 18 decimals numbers:
-- decay = 999959900000000000
-- maxRatio = 200000000000000000
+- decay = 9000000
+- maxRatio = 2000000
 - rho = 2000000000000000
 - minThresholdStakePercentage = 200000000000000000
 
