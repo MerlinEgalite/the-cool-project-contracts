@@ -6,13 +6,8 @@ import { IERC20 } from "./token/ERC20/IERC20.sol";
 import { SafeERC20 } from "./token/ERC20/SafeERC20.sol";
 
 /**
- * This is a proof of concept starter contract, showing how uncollaterised loans are possible
- * using Aave v2 credit delegation.
- * This example supports stable interest rate borrows.
- * It is not production ready (!). User permissions and user accounting of loans should be implemented.
- * See @dev comments
- */
-
+	* @title SimpleCreditDelegation contract
+	**/
 contract SimpleCreditDelegation {
 	using SafeERC20 for IERC20;
 
