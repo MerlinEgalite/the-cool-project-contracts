@@ -30,3 +30,17 @@ Long terms:
 - DAI address: 0xff795577d9ac8bd7d90ee22b6c1703490b6512fd
 - First account: 0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73
 - Address to whitelist: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+
+## Parameters
+
+- decay = 0.9999599, which sets up conviction halftime to 3 days.
+- maxRatio = 0.2, which sets the threshold formula to only allow proposals that request less than 20% of the funds.
+- rho = 0.002, which fine tunes the threshold formula.
+- minThresholdStakePercentage = 0.2, which sets the minimum percent of stake token active supply that is used for calculating the threshold
+
+In 18 decimals numbers:
+- decay = 999959900000000000
+- maxRatio = 200000000000000000
+- rho = 2000000000000000
+- minThresholdStakePercentage = 200000000000000000
+
